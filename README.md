@@ -42,11 +42,11 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,186 · **Forks**: 2,635 · **Open issues**: 2,887 · **Contributors**: 165
+- **Stars**: 11,187 · **Forks**: 2,635 · **Open issues**: 2,887 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 103 · **Closed issues**: 2109 · **Open issues**: 778 · **Commits**: 4884
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 104 · **Closed issues**: 2109 · **Open issues**: 778 · **Commits**: 4884
 
 ## Recent activity
 
@@ -87,4 +87,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:46:53Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:12:44Z._

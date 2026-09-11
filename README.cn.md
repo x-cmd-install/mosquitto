@@ -42,11 +42,11 @@ x install mosquitto
 
 ## 流行度
 
-- **Star**: 11,186 · **Fork**: 2,635 · **开放 issue**: 2,887 · **贡献者**: 165
+- **Star**: 11,187 · **Fork**: 2,635 · **开放 issue**: 2,887 · **贡献者**: 165
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 333 · **开放 PR**: 103 · **已关闭 issue**: 2109 · **开放 issue**: 778 · **提交数**: 4884
+- **发布数**: 0 · **已合并 PR**: 333 · **开放 PR**: 104 · **已关闭 issue**: 2109 · **开放 issue**: 778 · **提交数**: 4884
 
 ## 最近活动
 
@@ -87,4 +87,4 @@ mosquitto 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T04:46:54Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:12:46Z._
