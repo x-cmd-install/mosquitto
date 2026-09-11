@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:46:42Z
+  collectedAt: 2026-09-11T20:12:23Z
 timeline:
   created: 2016-03-10
   lastCommit: 2026-09-03
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 11186
+  star: 11187
   watcher: 274
   fork: 2635
   release: 0
   contributor: 165
-  pullRequest: 842
+  pullRequest: 843
   issue: 2887
 language:
   C: 2749700
@@ -91,13 +91,13 @@ recent:
 total:
   release: 0
   mergedPR: 333
-  openPR: 103
+  openPR: 104
   closedIssue: 2109
   openIssue: 778
   commit: 4884
 ---
 path: /home/runner/.x-repo/github.com/eclipse/mosquitto
-collectedAt: 2026-09-11T04:46:46Z
+collectedAt: 2026-09-11T20:12:32Z
 loc:
   C:
     code: 67973
