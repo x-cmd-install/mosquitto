@@ -384,3 +384,4 @@ checks:
       - 'Info:   1 out of  12 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   6 containerImage dependencies pinned'
       - 'Info:   0 out of   2 pipCommand dependencies pinned'
+---
