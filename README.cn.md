@@ -42,41 +42,22 @@ x install mosquitto
 
 ## 流行度
 
-- **Star**: 11,189 · **Fork**: 2,636 · **开放 issue**: 2,887 · **贡献者**: 165
+- **Star**: 11,189 · **Fork**: 2,636 · **开放 issue**: 2,888 · **贡献者**: 165
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 333 · **开放 PR**: 105 · **已关闭 issue**: 2109 · **开放 issue**: 778 · **提交数**: 4884
+- **发布数**: 0 · **已合并 PR**: 333 · **开放 PR**: 105 · **已关闭 issue**: 2109 · **开放 issue**: 779 · **提交数**: 4884
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/mosquitto) 上共有 **233** 个发行版报告此项目。**52** 个 ✅ 已是最新上游版本，**166** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.1.2` | ✅ latest |
-| Debian 14 | `2.1.2` | ✅ latest |
-| Debian 13 | `2.0.21` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.0.22` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.0.18` | ⚠️ outdated |
-| Arch | `2.1.2` | ✅ latest |
-| Homebrew | `2.1.2` | ✅ latest |
-| Fedora rawhide | `2.1.2` | ✅ latest |
-| Nix unstable | `2.1.2` | ✅ latest |
-| Void | `2.0.18` | ⚠️ outdated |
-| Alpine edge | `2.1.2` | ✅ latest |
-| openSUSE Tumbleweed | `2.0.23` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 改进这些数据
 
@@ -87,4 +68,4 @@ mosquitto 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T04:52:45Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T04:55:03Z._

@@ -42,41 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,189 · **Forks**: 2,636 · **Open issues**: 2,887 · **Contributors**: 165
+- **Stars**: 11,189 · **Forks**: 2,636 · **Open issues**: 2,888 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 105 · **Closed issues**: 2109 · **Open issues**: 778 · **Commits**: 4884
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 105 · **Closed issues**: 2109 · **Open issues**: 779 · **Commits**: 4884
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## Distribution status
-
-Reported by **233** distros on [repology.org](https://repology.org/project/mosquitto). **52** are ✅ on the latest upstream release, **166** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.1.2` | ✅ latest |
-| Debian 14 | `2.1.2` | ✅ latest |
-| Debian 13 | `2.0.21` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.0.22` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.0.18` | ⚠️ outdated |
-| Arch | `2.1.2` | ✅ latest |
-| Homebrew | `2.1.2` | ✅ latest |
-| Fedora rawhide | `2.1.2` | ✅ latest |
-| Nix unstable | `2.1.2` | ✅ latest |
-| Void | `2.0.18` | ⚠️ outdated |
-| Alpine edge | `2.1.2` | ✅ latest |
-| openSUSE Tumbleweed | `2.0.23` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:52:44Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:55:03Z._
