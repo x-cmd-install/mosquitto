@@ -384,3 +384,4 @@ checks:
     details:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Info: all commits (17) are checked with a SAST tool'
+---
