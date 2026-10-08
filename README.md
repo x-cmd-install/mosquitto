@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,253 · **Forks**: 2,646 · **Open issues**: 2,901 · **Contributors**: 165
+- **Stars**: 11,255 · **Forks**: 2,647 · **Open issues**: 2,902 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 111 · **Closed issues**: 2110 · **Open issues**: 791 · **Commits**: 4885
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 111 · **Closed issues**: 2110 · **Open issues**: 792 · **Commits**: 4885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-18 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T06:01:57Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:08:43Z._
