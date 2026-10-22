@@ -24,40 +24,30 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 | Json | 9,723 | 0 | 202 | 44 |
 | Cpp | 9,606 | 552 | 3,068 | 129 |
 
-## OpenSSF Scorecard
-
-Overall score: **5.9 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (0/10) — Found 0/16 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-
 ## Source
 
-- **Upstream**: <https://github.com/eclipse/mosquitto>
+- **Upstream**: <https://github.com/eclipse-mosquitto/mosquitto>
 - **Homepage**: <https://mosquitto.org>
 - **License**: NOASSERTION
 
 ## Popularity
 
-- **Stars**: 11,288 · **Forks**: 2,653 · **Open issues**: 2,908 · **Contributors**: 165
+- **Stars**: 11,288 · **Forks**: 2,654 · **Open issues**: 2,908 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 112 · **Closed issues**: 2113 · **Open issues**: 795 · **Commits**: 4885
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 111 · **Closed issues**: 2113 · **Open issues**: 795 · **Commits**: 4885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-31 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-22 | 0 | 0 | 8 | 2 | 13 | 1 |
+| last60d | 2026-08-23 | 0 | 2 | 17 | 2 | 22 | 3 |
+| 90d | 2026-07-24 | 0 | 2 | 26 | 2 | 41 | 15 |
+| last180d | 2026-04-25 | 0 | 6 | 42 | 12 | 122 | 78 |
+| 360d | 2025-10-27 | 0 | 25 | 58 | 80 | 172 | 393 |
+| last720d | 2024-11-01 | 0 | 69 | 64 | 203 | 214 | 811 |
 
 ## Improve this data
 
@@ -68,4 +58,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T04:39:55Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T04:45:06Z._
