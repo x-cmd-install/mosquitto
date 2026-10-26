@@ -32,22 +32,22 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 11,293 · **Forks**: 2,653 · **Open issues**: 2,908 · **Contributors**: 165
+- **Stars**: 11,295 · **Forks**: 2,654 · **Open issues**: 2,908 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 111 · **Closed issues**: 2114 · **Open issues**: 794 · **Commits**: 4885
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 112 · **Closed issues**: 2114 · **Open issues**: 794 · **Commits**: 4885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 0 | 8 | 2 | 13 | 1 |
-| last60d | 2026-08-26 | 0 | 0 | 15 | 2 | 20 | 3 |
-| 90d | 2026-07-27 | 0 | 2 | 26 | 2 | 41 | 15 |
-| last180d | 2026-04-28 | 0 | 5 | 42 | 12 | 121 | 78 |
-| 360d | 2025-10-30 | 0 | 25 | 58 | 80 | 171 | 393 |
-| last720d | 2024-11-04 | 0 | 68 | 64 | 202 | 214 | 804 |
+| 30d | 2026-09-26 | 0 | 0 | 9 | 2 | 13 | 1 |
+| last60d | 2026-08-27 | 0 | 0 | 16 | 2 | 20 | 2 |
+| 90d | 2026-07-28 | 0 | 2 | 26 | 2 | 40 | 13 |
+| last180d | 2026-04-29 | 0 | 5 | 43 | 11 | 121 | 61 |
+| 360d | 2025-10-31 | 0 | 25 | 59 | 80 | 171 | 390 |
+| last720d | 2024-11-05 | 0 | 67 | 65 | 202 | 214 | 804 |
 
 ## Distribution status
 
@@ -77,4 +77,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:39:47Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:41:08Z._
