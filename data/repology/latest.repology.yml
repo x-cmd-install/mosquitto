@@ -1,3 +1,31 @@
+- repo: conancenter
+  srcname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.22
+  origversion: null
+  status: outdated
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-3
+  status: newest
+  maintainers:
+    - debian-iot-maintainers@alioth-lists.debian.net
+    - jz-2017@heute-morgen.de
+    - roger@atchoo.org
+    - rzr@users.sf.net
+  categories:
+    - net
 - repo: alpine_3_21
   subrepo: main
   srcname: mosquitto
@@ -479,6 +507,18 @@
     - ncopa@alpinelinux.org
   licenses:
     - EPL-1.0 OR EPL-2.0
+- repo: artix
+  subrepo: world
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-2
+  status: newest
+  summary: An Open Source MQTT Broker
+  licenses:
+    - LicenseRef-EDL-1.0
+    - EPL-2.0
 - repo: alpine_edge
   subrepo: main
   srcname: mosquitto
@@ -602,46 +642,6 @@
     - east_arctica@aur
   licenses:
     - EPL
-- repo: artix
-  subrepo: world
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-2
-  status: newest
-  summary: An Open Source MQTT Broker
-  licenses:
-    - LicenseRef-EDL-1.0
-    - EPL-2.0
-- repo: conancenter
-  srcname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: null
-  status: outdated
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-3
-  status: newest
-  maintainers:
-    - debian-iot-maintainers@alioth-lists.debian.net
-    - jz-2017@heute-morgen.de
-    - roger@atchoo.org
-    - rzr@users.sf.net
-  categories:
-    - net
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: mosquitto
@@ -829,21 +829,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-devel
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: 2.0.22-1.fc41
-  status: outdated
-  summary: Open Source MQTT v5/v3.1.x Broker
-  licenses:
-    - EPL-2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: mosquitto
   binnames:
@@ -853,6 +838,21 @@
   version: 2.0.19
   origversion: 2.0.19-1.fc41
   status: legacy
+  summary: Open Source MQTT v5/v3.1.x Broker
+  licenses:
+    - EPL-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-devel
+  visiblename: mosquitto
+  version: 2.0.22
+  origversion: 2.0.22-1.fc41
+  status: outdated
   summary: Open Source MQTT v5/v3.1.x Broker
   licenses:
     - EPL-2.0
@@ -889,21 +889,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-devel
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: 2.0.22-4.fc43
-  status: outdated
-  summary: Open Source MQTT v5/v3.1.x Broker
-  licenses:
-    - EPL-2.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: mosquitto
   binnames:
@@ -912,6 +897,21 @@
   visiblename: mosquitto
   version: 2.0.22
   origversion: 2.0.22-7.fc43
+  status: outdated
+  summary: Open Source MQTT v5/v3.1.x Broker
+  licenses:
+    - EPL-2.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-devel
+  visiblename: mosquitto
+  version: 2.0.22
+  origversion: 2.0.22-4.fc43
   status: outdated
   summary: Open Source MQTT v5/v3.1.x Broker
   licenses:
@@ -1807,12 +1807,32 @@
     - libmosquittopp1
     - libmosquittopp-devel
   visiblename: mosquitto
-  version: 2.0.22
+  version: 2.1.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Open source MQTT broker
   categories:
     - Net
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1+deb11u1
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - net
+  vulnerable: true
 - repo: adelie_current
   subrepo: user
   srcname: mosquitto
@@ -1868,26 +1888,6 @@
     - maxcrees@me.com
   licenses:
     - EPL-1.0 AND EDL-1.0 AND MIT AND BSD-3-Clause
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u1
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - net
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -2462,26 +2462,6 @@
   status: legacy
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u2
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - net
-  vulnerable: true
-- repo: debian_11
   subrepo: bullseye/main
   srcname: mosquitto
   binnames:
@@ -2501,8 +2481,8 @@
   categories:
     - net
   vulnerable: true
-- repo: debian_12
-  subrepo: bookworm-security/main
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: mosquitto
   binnames:
     - mosquitto
@@ -2514,7 +2494,7 @@
     - mosquitto-clients
   visiblename: mosquitto
   version: 2.0.11
-  origversion: 2.0.11-1.2+deb12u1
+  origversion: 2.0.11-1+deb11u2
   status: outdated
   maintainers:
     - roger@atchoo.org
@@ -2535,6 +2515,26 @@
   visiblename: mosquitto
   version: 2.0.11
   origversion: 2.0.11-1.2+deb12u2
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - net
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm-security/main
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1.2+deb12u1
   status: outdated
   maintainers:
     - roger@atchoo.org
@@ -2685,26 +2685,6 @@
     - EPL/EDL
   categories:
     - System/Libraries
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: mosquitto
-  binnames:
-    - libmosquitto-dev
-    - libmosquitto1
-    - libmosquittopp-dev
-    - libmosquittopp1
-    - mosquitto
-    - mosquitto-clients
-    - mosquitto-dev
-  visiblename: mosquitto
-  version: 1.5.7
-  origversion: 1.5.7-1+deb10u1
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - libdevel
   vulnerable: true
 - repo: openmandriva_rolling
   subrepo: unsupported/release
@@ -2961,26 +2941,6 @@
     - net
   vulnerable: true
 - repo: pardus_21
-  subrepo: updates/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u2
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - net
-  vulnerable: true
-- repo: pardus_21
   subrepo: main
   srcname: mosquitto
   binnames:
@@ -2994,6 +2954,26 @@
   visiblename: mosquitto
   version: 2.0.11
   origversion: 2.0.11-1+deb11u1
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - net
+  vulnerable: true
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1+deb11u2
   status: outdated
   maintainers:
     - roger@atchoo.org
@@ -3018,6 +2998,26 @@
   status: outdated
   licenses:
     - EPL-2.0 OR BSD-3-Clause
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: mosquitto
+  binnames:
+    - libmosquitto-dev
+    - libmosquitto1
+    - libmosquittopp-dev
+    - libmosquittopp1
+    - mosquitto
+    - mosquitto-clients
+    - mosquitto-dev
+  visiblename: mosquitto
+  version: 1.5.7
+  origversion: 1.5.7-1+deb10u1
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - libdevel
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
@@ -3071,26 +3071,6 @@
     - EPL-1.0 OR EPL-2.0
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - libmosquitto0
-    - libmosquitto0-dev
-    - libmosquittopp0
-    - libmosquittopp0-dev
-    - mosquitto-clients
-    - python-mosquitto
-  visiblename: mosquitto
-  version: "0.15"
-  origversion: 0.15-2ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/universe
   srcname: mosquitto
   binnames:
@@ -3104,6 +3084,26 @@
   visiblename: mosquitto
   version: "0.15"
   origversion: 0.15-2+deb7u3ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - libmosquitto0
+    - libmosquitto0-dev
+    - libmosquittopp0
+    - libmosquittopp0-dev
+    - mosquitto-clients
+    - python-mosquitto
+  visiblename: mosquitto
+  version: "0.15"
+  origversion: 0.15-2ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3157,29 +3157,6 @@
     - universe/net
   vulnerable: true
 - repo: ubuntu_18_04
-  subrepo: bionic-updates/universe
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-    - mosquitto-dbg
-    - libmosquitto1-dbg
-    - libmosquittopp1-dbg
-  visiblename: mosquitto
-  version: 1.4.15
-  origversion: 1.4.15-2ubuntu0.18.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: mosquitto
   binnames:
@@ -3199,6 +3176,29 @@
   status: outdated
   maintainers:
     - roger@atchoo.org
+  categories:
+    - universe/net
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/universe
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+    - mosquitto-dbg
+    - libmosquitto1-dbg
+    - libmosquittopp1-dbg
+  visiblename: mosquitto
+  version: 1.4.15
+  origversion: 1.4.15-2ubuntu0.18.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/net
   vulnerable: true
