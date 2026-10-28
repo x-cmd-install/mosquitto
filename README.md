@@ -32,26 +32,26 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 11,298 · **Forks**: 2,654 · **Open issues**: 2,909 · **Contributors**: 165
+- **Stars**: 11,305 · **Forks**: 2,655 · **Open issues**: 2,910 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 114 · **Closed issues**: 2114 · **Open issues**: 795 · **Commits**: 4885
+- **Releases**: 0 · **Merged PRs**: 333 · **Open PRs**: 115 · **Closed issues**: 2114 · **Open issues**: 796 · **Commits**: 4885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 11 | 2 | 14 | 1 |
-| last60d | 2026-08-28 | 0 | 0 | 18 | 2 | 21 | 2 |
-| 90d | 2026-07-29 | 0 | 2 | 28 | 2 | 41 | 13 |
-| last180d | 2026-04-30 | 0 | 5 | 45 | 11 | 121 | 61 |
-| 360d | 2025-11-01 | 0 | 25 | 61 | 80 | 172 | 390 |
-| last720d | 2024-11-06 | 0 | 67 | 67 | 202 | 215 | 802 |
+| 30d | 2026-09-28 | 0 | 0 | 12 | 2 | 15 | 1 |
+| last60d | 2026-08-29 | 0 | 0 | 18 | 2 | 22 | 2 |
+| 90d | 2026-07-30 | 0 | 2 | 29 | 2 | 41 | 13 |
+| last180d | 2026-05-01 | 0 | 5 | 46 | 11 | 122 | 61 |
+| 360d | 2025-11-02 | 0 | 25 | 62 | 80 | 173 | 390 |
+| last720d | 2024-11-07 | 0 | 67 | 68 | 202 | 214 | 802 |
 
 ## Distribution status
 
-Reported by **229** distros on [repology.org](https://repology.org/project/mosquitto). **52** are ✅ on the latest upstream release, **162** are ⚠️ on an older version.
+Reported by **229** distros on [repology.org](https://repology.org/project/mosquitto). **53** are ✅ on the latest upstream release, **161** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -77,4 +77,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T04:58:33Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:36:25Z._
