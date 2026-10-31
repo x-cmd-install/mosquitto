@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-30T05:46:45Z
+  collectedAt: 2026-10-31T05:35:45Z
 timeline:
   created: 2016-03-10
   lastCommit: 2026-10-04
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 11315
+  star: 11317
   watcher: 273
   fork: 2655
   release: 0
@@ -41,15 +41,15 @@ language:
 totalBytes: 4997952
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
     mergedPR: 0
-    openPR: 10
+    openPR: 8
     closedIssue: 1
     openIssue: 16
     commit: 1
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 0
     openPR: 18
@@ -57,15 +57,15 @@ recent:
     openIssue: 24
     commit: 2
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
     mergedPR: 2
-    openPR: 30
+    openPR: 29
     closedIssue: 2
     openIssue: 40
     commit: 13
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
     mergedPR: 5
     openPR: 47
@@ -73,7 +73,7 @@ recent:
     openIssue: 67
     commit: 61
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
     mergedPR: 25
     openPR: 63
@@ -81,13 +81,13 @@ recent:
     openIssue: 173
     commit: 390
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
     mergedPR: 67
     openPR: 69
     closedIssue: 201
     openIssue: 216
-    commit: 801
+    commit: 800
 total:
   release: 0
   mergedPR: 333
@@ -97,7 +97,7 @@ total:
   commit: 4885
 ---
 path: /home/runner/.x-repo/github.com/eclipse-mosquitto/mosquitto
-collectedAt: 2026-10-30T05:46:48Z
+collectedAt: 2026-10-31T05:35:49Z
 loc:
   C:
     code: 67974
