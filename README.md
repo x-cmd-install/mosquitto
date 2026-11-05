@@ -32,7 +32,7 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 11,329 · **Forks**: 2,661 · **Open issues**: 2,914 · **Contributors**: 165
+- **Stars**: 11,337 · **Forks**: 2,663 · **Open issues**: 2,914 · **Contributors**: 165
 
 ## Totals (cumulative)
 
@@ -42,16 +42,16 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 9 | 1 | 11 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 19 | 2 | 25 | 1 |
-| 90d | 2026-08-06 | 0 | 2 | 32 | 2 | 41 | 13 |
-| last180d | 2026-05-08 | 0 | 5 | 48 | 9 | 68 | 57 |
-| 360d | 2025-11-09 | 0 | 25 | 66 | 79 | 174 | 384 |
-| last720d | 2024-11-14 | 0 | 65 | 72 | 200 | 217 | 799 |
+| 30d | 2026-10-06 | 0 | 0 | 9 | 1 | 11 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 19 | 2 | 24 | 1 |
+| 90d | 2026-08-07 | 0 | 2 | 32 | 2 | 39 | 13 |
+| last180d | 2026-05-09 | 0 | 5 | 48 | 9 | 67 | 57 |
+| 360d | 2025-11-10 | 0 | 25 | 66 | 77 | 174 | 384 |
+| last720d | 2024-11-15 | 0 | 65 | 72 | 200 | 217 | 799 |
 
 ## Distribution status
 
-Reported by **229** distros on [repology.org](https://repology.org/project/mosquitto). **52** are ✅ on the latest upstream release, **162** are ⚠️ on an older version.
+Reported by **231** distros on [repology.org](https://repology.org/project/mosquitto). **54** are ✅ on the latest upstream release, **162** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -77,4 +77,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:27:36Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:38:01Z._
