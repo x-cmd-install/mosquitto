@@ -32,26 +32,26 @@ Total: **148,217** lines of code across **995** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 11,355 · **Forks**: 2,663 · **Open issues**: 2,917 · **Contributors**: 165
+- **Stars**: 11,359 · **Forks**: 2,665 · **Open issues**: 2,918 · **Contributors**: 165
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 336 · **Open PRs**: 118 · **Closed issues**: 2115 · **Open issues**: 802 · **Commits**: 4890
+- **Releases**: 0 · **Merged PRs**: 336 · **Open PRs**: 119 · **Closed issues**: 2115 · **Open issues**: 803 · **Commits**: 4890
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 3 | 9 | 1 | 13 | 5 |
-| last60d | 2026-09-11 | 0 | 3 | 17 | 2 | 27 | 6 |
-| 90d | 2026-08-12 | 0 | 5 | 28 | 2 | 36 | 18 |
-| last180d | 2026-05-14 | 0 | 8 | 44 | 9 | 69 | 52 |
-| 360d | 2025-11-15 | 0 | 28 | 65 | 77 | 176 | 386 |
-| last720d | 2024-11-20 | 0 | 68 | 71 | 199 | 219 | 800 |
+| 30d | 2026-10-12 | 0 | 3 | 10 | 1 | 14 | 5 |
+| last60d | 2026-09-12 | 0 | 3 | 17 | 2 | 28 | 6 |
+| 90d | 2026-08-13 | 0 | 5 | 29 | 2 | 35 | 18 |
+| last180d | 2026-05-15 | 0 | 8 | 45 | 9 | 70 | 52 |
+| 360d | 2025-11-16 | 0 | 28 | 66 | 77 | 177 | 386 |
+| last720d | 2024-11-21 | 0 | 68 | 72 | 199 | 220 | 794 |
 
 ## Distribution status
 
-Reported by **231** distros on [repology.org](https://repology.org/project/mosquitto). **57** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
+Reported by **229** distros on [repology.org](https://repology.org/project/mosquitto). **55** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -77,4 +77,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:15:10Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:14:42Z._
