@@ -32,26 +32,26 @@ Total: **148,879** lines of code across **997** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 11,475 · **Forks**: 2,673 · **Open issues**: 2,927 · **Contributors**: 166
+- **Stars**: 11,477 · **Forks**: 2,675 · **Open issues**: 2,927 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 336 · **Open PRs**: 123 · **Closed issues**: 2120 · **Open issues**: 807 · **Commits**: 4910
+- **Releases**: 0 · **Merged PRs**: 336 · **Open PRs**: 124 · **Closed issues**: 2120 · **Open issues**: 807 · **Commits**: 4910
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 3 | 14 | 3 | 16 | 24 |
-| last60d | 2026-09-21 | 0 | 3 | 22 | 5 | 29 | 26 |
-| 90d | 2026-08-22 | 0 | 5 | 32 | 5 | 38 | 37 |
-| last180d | 2026-05-24 | 0 | 6 | 48 | 12 | 74 | 71 |
-| 360d | 2025-11-25 | 0 | 28 | 70 | 78 | 182 | 401 |
-| last720d | 2024-11-30 | 0 | 68 | 75 | 199 | 224 | 810 |
+| 30d | 2026-10-22 | 0 | 3 | 15 | 3 | 16 | 24 |
+| last60d | 2026-09-22 | 0 | 3 | 23 | 5 | 29 | 26 |
+| 90d | 2026-08-23 | 0 | 5 | 32 | 5 | 38 | 37 |
+| last180d | 2026-05-25 | 0 | 6 | 49 | 12 | 74 | 71 |
+| 360d | 2025-11-26 | 0 | 28 | 71 | 76 | 182 | 401 |
+| last720d | 2024-12-01 | 0 | 68 | 76 | 199 | 224 | 810 |
 
 ## Distribution status
 
-Reported by **231** distros on [repology.org](https://repology.org/project/mosquitto). **13** are ✅ on the latest upstream release, **204** are ⚠️ on an older version.
+Reported by **230** distros on [repology.org](https://repology.org/project/mosquitto). **16** are ✅ on the latest upstream release, **200** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -62,7 +62,7 @@ Reported by **231** distros on [repology.org](https://repology.org/project/mosqu
 | Ubuntu 24.04 LTS | `2.0.18` | ⚠️ outdated |
 | Arch | `2.1.2` | ⚠️ outdated |
 | Homebrew | `2.1.4` | ✅ latest |
-| Fedora rawhide | `2.1.2` | ⚠️ outdated |
+| Fedora rawhide | `2.1.4` | ✅ latest |
 | Nix unstable | `2.1.2` | ⚠️ outdated |
 | Void | `2.0.18` | ⚠️ outdated |
 | Alpine edge | `2.1.2` | ⚠️ outdated |
@@ -77,4 +77,4 @@ Install metadata for mosquitto lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:34:55Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:20:04Z._
