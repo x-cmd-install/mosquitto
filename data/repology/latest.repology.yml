@@ -1,14 +1,38 @@
-- repo: msys2_msys2
-  subrepo: x86_64
+- repo: gnuguix
   srcname: mosquitto
   binname: mosquitto
   visiblename: mosquitto
+  version: 2.0.21
+  origversion: null
+  status: outdated
+  summary: Message broker
+- repo: haikuports_master
+  srcname: app-misc/mosquitto
+  visiblename: app-misc/mosquitto
+  version: 2.0.20
+  origversion: null
+  status: outdated
+  categories:
+    - app-misc
+- repo: homebrew
+  srcname: mosquitto
+  visiblename: mosquitto
   version: 2.1.4
-  origversion: 2.1.4-1
+  origversion: null
   status: newest
+  summary: Message broker implementing the MQTT protocol
+- repo: arch
+  subrepo: extra
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-3
+  status: outdated
   summary: An Open Source MQTT Broker
   licenses:
-    - spdx:EPL-2.0 OR EDL-1.0
+    - LicenseRef-EDL-1.0
+    - EPL-2.0
 - repo: nix_stable_24_11
   srcname: mosquitto
   visiblename: mosquitto
@@ -20,6 +44,461 @@
     - peter@hoeg.com
   licenses:
     - EPL-1.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dbg
+  visiblename: mosquitto-dbg
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dev
+  visiblename: mosquitto-dev
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-doc
+  visiblename: mosquitto-doc
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs
+  visiblename: mosquitto-libs
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs++
+  visiblename: mosquitto-libs++
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: C++ wrapper for libmosquitto
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-openrc
+  visiblename: mosquitto-openrc
+  version: 2.0.20
+  origversion: 2.0.20-r0
+  status: outdated
+  summary: open source MQTT broker (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dbg
+  visiblename: mosquitto-dbg
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dev
+  visiblename: mosquitto-dev
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-doc
+  visiblename: mosquitto-doc
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs
+  visiblename: mosquitto-libs
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs++
+  visiblename: mosquitto-libs++
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: C++ wrapper for libmosquitto
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-openrc
+  visiblename: mosquitto-openrc
+  version: 2.0.21
+  origversion: 2.0.21-r0
+  status: outdated
+  summary: open source MQTT broker (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dbg
+  visiblename: mosquitto-dbg
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dev
+  visiblename: mosquitto-dev
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-doc
+  visiblename: mosquitto-doc
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs
+  visiblename: mosquitto-libs
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs++
+  visiblename: mosquitto-libs++
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: C++ wrapper for libmosquitto
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-openrc
+  visiblename: mosquitto-openrc
+  version: 2.0.22
+  origversion: 2.0.22-r0
+  status: outdated
+  summary: open source MQTT broker (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dbg
+  visiblename: mosquitto-dbg
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dev
+  visiblename: mosquitto-dev
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-doc
+  visiblename: mosquitto-doc
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs
+  visiblename: mosquitto-libs
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-libs++
+  visiblename: mosquitto-libs++
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: C++ wrapper for libmosquitto
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-openrc
+  visiblename: mosquitto-openrc
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosquitto
+  binname: mosquitto-dbg
+  visiblename: mosquitto-dbg
+  version: 2.1.2
+  origversion: 2.1.2-r1
+  status: outdated
+  summary: open source MQTT broker (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - EPL-1.0 OR EPL-2.0
 - repo: nix_stable_25_05
   srcname: mosquitto
   visiblename: mosquitto
@@ -32,483 +511,6 @@
     - sikmir@disroot.org
   licenses:
     - EPL-1.0
-- repo: wikidata
-  srcname: Q51582950
-  visiblename: Mosquitto
-  version: 2.1.4
-  origversion: null
-  status: newest
-  summary: MQTT message broker software
-  licenses:
-    - Eclipse Distribution License
-    - Eclipse Public License 2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dbg
-  visiblename: mosquitto-dbg
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dev
-  visiblename: mosquitto-dev
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-doc
-  visiblename: mosquitto-doc
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs
-  visiblename: mosquitto-libs
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs++
-  visiblename: mosquitto-libs++
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: C++ wrapper for libmosquitto
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-openrc
-  visiblename: mosquitto-openrc
-  version: 2.0.20
-  origversion: 2.0.20-r0
-  status: outdated
-  summary: open source MQTT broker (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dbg
-  visiblename: mosquitto-dbg
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dev
-  visiblename: mosquitto-dev
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-doc
-  visiblename: mosquitto-doc
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs
-  visiblename: mosquitto-libs
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs++
-  visiblename: mosquitto-libs++
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: C++ wrapper for libmosquitto
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-openrc
-  visiblename: mosquitto-openrc
-  version: 2.0.21
-  origversion: 2.0.21-r0
-  status: outdated
-  summary: open source MQTT broker (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dbg
-  visiblename: mosquitto-dbg
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dev
-  visiblename: mosquitto-dev
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-doc
-  visiblename: mosquitto-doc
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs
-  visiblename: mosquitto-libs
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs++
-  visiblename: mosquitto-libs++
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: C++ wrapper for libmosquitto
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-openrc
-  visiblename: mosquitto-openrc
-  version: 2.0.22
-  origversion: 2.0.22-r0
-  status: outdated
-  summary: open source MQTT broker (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dbg
-  visiblename: mosquitto-dbg
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dev
-  visiblename: mosquitto-dev
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-doc
-  visiblename: mosquitto-doc
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs
-  visiblename: mosquitto-libs
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-libs++
-  visiblename: mosquitto-libs++
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: C++ wrapper for libmosquitto
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-openrc
-  visiblename: mosquitto-openrc
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
-- repo: nix_stable_25_11
-  srcname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: null
-  status: outdated
-  summary: Open source MQTT v3.1/3.1.1/5.0 broker
-  maintainers:
-    - peter@hoeg.com
-    - sikmir@disroot.org
-  licenses:
-    - EPL-1.0
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosquitto
-  binname: mosquitto-dbg
-  visiblename: mosquitto-dbg
-  version: 2.1.2
-  origversion: 2.1.2-r1
-  status: outdated
-  summary: open source MQTT broker (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - EPL-1.0 OR EPL-2.0
 - repo: alpine_edge
   subrepo: main
   srcname: mosquitto
@@ -633,18 +635,6 @@
     - jz-2017@heute-morgen.de
     - roger@atchoo.org
     - rzr@users.sf.net
-- repo: arch
-  subrepo: extra
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-3
-  status: outdated
-  summary: An Open Source MQTT Broker
-  licenses:
-    - LicenseRef-EDL-1.0
-    - EPL-2.0
 - repo: arch_testing
   subrepo: extra-testing
   srcname: mosquitto
@@ -681,12 +671,34 @@
   licenses:
     - LicenseRef-EDL-1.0
     - EPL-2.0
+- repo: artix_testing
+  subrepo: world-gremlins
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.4
+  origversion: 2.1.4-1
+  status: newest
+  summary: An Open Source MQTT Broker
+  licenses:
+    - LicenseRef-EDL-1.0
+    - EPL-2.0
 - repo: conancenter
   srcname: mosquitto
   visiblename: mosquitto
   version: 2.0.22
   origversion: null
   status: outdated
+- repo: wikidata
+  srcname: Q51582950
+  visiblename: Mosquitto
+  version: 2.1.4
+  origversion: null
+  status: newest
+  summary: MQTT message broker software
+  licenses:
+    - Eclipse Distribution License
+    - Eclipse Public License 2.0
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
   srcname: mosquitto
@@ -753,21 +765,6 @@
     - rzr@users.sf.net
   categories:
     - net
-- repo: fedora_44
-  subrepo: updates
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-devel
-  visiblename: mosquitto
-  version: 2.1.2
-  origversion: 2.1.2-2.fc44
-  status: outdated
-  summary: Open Source MQTT v5/v3.1.x Broker
-  licenses:
-    - EPL-2.0
-  categories:
-    - Unspecified
 - repo: debian_unstable
   subrepo: sid/main
   srcname: mosquitto
@@ -864,18 +861,18 @@
     - EPL-2.0
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
+- repo: nix_stable_25_11
   srcname: mosquitto
   visiblename: mosquitto
-  version: 2.0.21
-  origversion: 2.0.21-bp156.2.6.1
-  status: legacy
-  summary: A MQTT v3.1/v3.1.1 Broker
+  version: 2.0.22
+  origversion: null
+  status: outdated
+  summary: Open source MQTT v3.1/3.1.1/5.0 broker
+  maintainers:
+    - peter@hoeg.com
+    - sikmir@disroot.org
   licenses:
     - EPL-1.0
-  categories:
-    - Productivity/Networking/Other
 - repo: exherbo
   subrepo: net
   srcname: net/mosquitto
@@ -953,21 +950,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-devel
-  visiblename: mosquitto
-  version: 2.0.22
-  origversion: 2.0.22-1.fc42
-  status: outdated
-  summary: Open Source MQTT v5/v3.1.x Broker
-  licenses:
-    - EPL-2.0
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: mosquitto
   binnames:
@@ -977,6 +959,21 @@
   version: 2.0.21
   origversion: 2.0.21-1.fc42
   status: legacy
+  summary: Open Source MQTT v5/v3.1.x Broker
+  licenses:
+    - EPL-2.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-devel
+  visiblename: mosquitto
+  version: 2.0.22
+  origversion: 2.0.22-1.fc42
+  status: outdated
   summary: Open Source MQTT v5/v3.1.x Broker
   licenses:
     - EPL-2.0
@@ -1006,6 +1003,21 @@
   visiblename: mosquitto
   version: 2.0.22
   origversion: 2.0.22-7.fc43
+  status: outdated
+  summary: Open Source MQTT v5/v3.1.x Broker
+  licenses:
+    - EPL-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-devel
+  visiblename: mosquitto
+  version: 2.1.2
+  origversion: 2.1.2-2.fc44
   status: outdated
   summary: Open Source MQTT v5/v3.1.x Broker
   licenses:
@@ -1095,29 +1107,6 @@
     - EPL-1.0
   categories:
     - app-misc
-- repo: gnuguix
-  srcname: mosquitto
-  binname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.21
-  origversion: null
-  status: outdated
-  summary: Message broker
-- repo: haikuports_master
-  srcname: app-misc/mosquitto
-  visiblename: app-misc/mosquitto
-  version: 2.0.20
-  origversion: null
-  status: outdated
-  categories:
-    - app-misc
-- repo: homebrew
-  srcname: mosquitto
-  visiblename: mosquitto
-  version: 2.1.4
-  origversion: null
-  status: newest
-  summary: Message broker implementing the MQTT protocol
 - repo: kali_rolling
   subrepo: main
   srcname: mosquitto
@@ -1301,6 +1290,17 @@
   summary: An Open Source MQTT Broker (mingw-w64)
   licenses:
     - spdx:EPL-2.0 OR EDL-1.0
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: mosquitto
+  binname: mosquitto
+  visiblename: mosquitto
+  version: 2.1.4
+  origversion: 2.1.4-1
+  status: newest
+  summary: An Open Source MQTT Broker
+  licenses:
+    - spdx:EPL-2.0 OR EDL-1.0
 - repo: msys2_ucrt64
   srcname: mingw-w64-mosquitto
   binname: mingw-w64-ucrt-x86_64-mosquitto
@@ -1369,6 +1369,18 @@
   summary: Eclipse Mosquitto - An open source MQTT broker
   categories:
     - Applications/Internet
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/mosquitto
+  binname: libmosquitto-ssl
+  visiblename: libmosquitto-ssl
+  version: 2.0.23
+  origversion: 2.0.23-r1
+  status: outdated
+  maintainers:
+    - karlp@etactica.com
+  categories:
+    - libs
 - repo: openmamba
   subrepo: base
   srcname: mosquitto
@@ -1415,6 +1427,18 @@
   subrepo: updates/backports
   srcname: mosquitto
   visiblename: mosquitto
+  version: 2.0.21
+  origversion: 2.0.21-bp156.2.6.1
+  status: legacy
+  summary: A MQTT v3.1/v3.1.1 Broker
+  licenses:
+    - EPL-1.0
+  categories:
+    - Productivity/Networking/Other
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: mosquitto
+  visiblename: mosquitto
   version: 2.0.23
   origversion: 2.0.23-bp156.2.9.1
   status: outdated
@@ -1448,18 +1472,6 @@
   srcname: feeds/packages/net/mosquitto
   binname: libmosquitto-nossl
   visiblename: libmosquitto-nossl
-  version: 2.0.23
-  origversion: 2.0.23-r1
-  status: outdated
-  maintainers:
-    - karlp@etactica.com
-  categories:
-    - libs
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/mosquitto
-  binname: libmosquitto-ssl
-  visiblename: libmosquitto-ssl
   version: 2.0.23
   origversion: 2.0.23-r1
   status: outdated
@@ -1931,49 +1943,6 @@
 - repo: adelie_current
   subrepo: user
   srcname: mosquitto
-  binname: mosquitto-dev
-  visiblename: mosquitto-dev
-  version: 2.0.15
-  origversion: 2.0.15-r0
-  status: outdated
-  summary: An Open Source MQTT Broker (development files)
-  maintainers:
-    - maxcrees@me.com
-  licenses:
-    - EPL-1.0 AND EDL-1.0 AND MIT AND BSD-3-Clause
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: mosquitto
-  binnames:
-    - libmosquitto-dev
-    - libmosquitto1
-    - libmosquittopp-dev
-    - libmosquittopp1
-    - mosquitto
-    - mosquitto-clients
-    - mosquitto-dev
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u1
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - libdevel
-  vulnerable: true
-- repo: ptxdist
-  srcname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.14
-  origversion: null
-  status: outdated
-  licenses:
-    - EPL-2.0 OR BSD-3-Clause
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: mosquitto
   binname: mosquitto
   visiblename: mosquitto
   version: 2.0.15
@@ -2008,6 +1977,20 @@
   origversion: 2.0.15-r0
   status: outdated
   summary: An Open Source MQTT Broker (debug symbols)
+  maintainers:
+    - maxcrees@me.com
+  licenses:
+    - EPL-1.0 AND EDL-1.0 AND MIT AND BSD-3-Clause
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: mosquitto
+  binname: mosquitto-dev
+  visiblename: mosquitto-dev
+  version: 2.0.15
+  origversion: 2.0.15-r0
+  status: outdated
+  summary: An Open Source MQTT Broker (development files)
   maintainers:
     - maxcrees@me.com
   licenses:
@@ -2292,16 +2275,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - EPL-1.0 OR EPL-2.0
-  vulnerable: true
-- repo: xrepo
-  srcname: mosquitto
-  visiblename: mosquitto
-  version: 2.0.15
-  origversion: null
-  status: legacy
-  summary: Eclipse Mosquitto - An open source MQTT broker
-  licenses:
-    - EPL-2.0
   vulnerable: true
 - repo: alpine_3_19
   subrepo: main
@@ -2588,32 +2561,32 @@
   maintainers:
     - roger@atchoo.org
   vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: mosquitto
+  binnames:
+    - libmosquitto-dev
+    - libmosquitto1
+    - libmosquittopp-dev
+    - libmosquittopp1
+    - mosquitto
+    - mosquitto-clients
+    - mosquitto-dev
+  visiblename: mosquitto
+  version: 1.5.7
+  origversion: 1.5.7-1+deb10u1
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - libdevel
+  vulnerable: true
 - repo: conancenter
   srcname: mosquitto
   visiblename: mosquitto
   version: 1.6.12
   origversion: null
   status: legacy
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u1
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - net
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye-security/main
@@ -2629,6 +2602,26 @@
   visiblename: mosquitto
   version: 2.0.11
   origversion: 2.0.11-1+deb11u2
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - net
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1+deb11u1
   status: outdated
   maintainers:
     - roger@atchoo.org
@@ -2963,25 +2956,25 @@
   categories:
     - net
   vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
+- repo: pardus_21
+  subrepo: updates/main
   srcname: mosquitto
   binnames:
-    - libmosquitto-dev
-    - libmosquitto1
-    - libmosquittopp-dev
-    - libmosquittopp1
     - mosquitto
-    - mosquitto-clients
     - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
   visiblename: mosquitto
-  version: 1.5.7
-  origversion: 1.5.7-1+deb10u1
+  version: 2.0.11
+  origversion: 2.0.11-1+deb11u2
   status: outdated
   maintainers:
     - roger@atchoo.org
   categories:
-    - libdevel
+    - net
   vulnerable: true
 - repo: pardus_21
   subrepo: main
@@ -3003,26 +2996,6 @@
   categories:
     - net
   vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1+deb11u2
-  status: outdated
-  maintainers:
-    - roger@atchoo.org
-  categories:
-    - net
-  vulnerable: true
 - repo: pclinuxos
   srcname: mosquitto
   visiblename: mosquitto
@@ -3032,6 +3005,35 @@
   summary: An Open Source MQTT v3.1/v3.1.1 Broker
   categories:
     - System/Libraries
+  vulnerable: true
+- repo: ptxdist
+  srcname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.14
+  origversion: null
+  status: outdated
+  licenses:
+    - EPL-2.0 OR BSD-3-Clause
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: mosquitto
+  binnames:
+    - libmosquitto-dev
+    - libmosquitto1
+    - libmosquittopp-dev
+    - libmosquittopp1
+    - mosquitto
+    - mosquitto-clients
+    - mosquitto-dev
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1+deb11u1
+  status: outdated
+  maintainers:
+    - roger@atchoo.org
+  categories:
+    - libdevel
   vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
@@ -3065,26 +3067,6 @@
     - EPL-1.0 OR EPL-2.0
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty-updates/universe
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - libmosquitto0
-    - libmosquitto0-dev
-    - libmosquittopp0
-    - libmosquittopp0-dev
-    - mosquitto-clients
-    - python-mosquitto
-  visiblename: mosquitto
-  version: "0.15"
-  origversion: 0.15-2+deb7u3ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty/universe
   srcname: mosquitto
   binnames:
@@ -3104,23 +3086,20 @@
   categories:
     - universe/net
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/universe
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/universe
   srcname: mosquitto
   binnames:
     - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
+    - libmosquitto0
+    - libmosquitto0-dev
+    - libmosquittopp0
+    - libmosquittopp0-dev
     - mosquitto-clients
-    - mosquitto-dbg
-    - libmosquitto1-dbg
-    - libmosquittopp1-dbg
+    - python-mosquitto
   visiblename: mosquitto
-  version: 1.4.8
-  origversion: 1.4.8-1ubuntu0.16.04.7
+  version: "0.15"
+  origversion: 0.15-2+deb7u3ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3150,6 +3129,29 @@
   categories:
     - universe/net
   vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/universe
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+    - mosquitto-dbg
+    - libmosquitto1-dbg
+    - libmosquittopp1-dbg
+  visiblename: mosquitto
+  version: 1.4.8
+  origversion: 1.4.8-1ubuntu0.16.04.7
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+  vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic-updates/universe
   srcname: mosquitto
@@ -3172,21 +3174,6 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/net
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: mosquitto
-  binname: mosquitto-clients
-  visiblename: mosquitto-clients
-  version: 2.0.18
-  origversion: 2.0.18_3
-  status: outdated
-  summary: Mosquitto command line MQTT clients
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - EPL-1.0
-    - BSD-3-Clause-Attribution
   vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic/universe
@@ -3232,26 +3219,6 @@
     - universe/net
   vulnerable: true
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: mosquitto
-  binnames:
-    - mosquitto
-    - mosquitto-dev
-    - libmosquitto1
-    - libmosquitto-dev
-    - libmosquittopp1
-    - libmosquittopp-dev
-    - mosquitto-clients
-  visiblename: mosquitto
-  version: 2.0.11
-  origversion: 2.0.11-1ubuntu1.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/net
-  vulnerable: true
-- repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: mosquitto
   binnames:
@@ -3265,6 +3232,26 @@
   visiblename: mosquitto
   version: 2.0.11
   origversion: 2.0.11-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/net
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: mosquitto
+  binnames:
+    - mosquitto
+    - mosquitto-dev
+    - libmosquitto1
+    - libmosquitto-dev
+    - libmosquittopp1
+    - libmosquittopp-dev
+    - mosquitto-clients
+  visiblename: mosquitto
+  version: 2.0.11
+  origversion: 2.0.11-1ubuntu1.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3367,6 +3354,31 @@
   licenses:
     - EPL-1.0
     - BSD-3-Clause-Attribution
+  vulnerable: true
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: mosquitto
+  binname: mosquitto-clients
+  visiblename: mosquitto-clients
+  version: 2.0.18
+  origversion: 2.0.18_3
+  status: outdated
+  summary: Mosquitto command line MQTT clients
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - EPL-1.0
+    - BSD-3-Clause-Attribution
+  vulnerable: true
+- repo: xrepo
+  srcname: mosquitto
+  visiblename: mosquitto
+  version: 2.0.15
+  origversion: null
+  status: legacy
+  summary: Eclipse Mosquitto - An open source MQTT broker
+  licenses:
+    - EPL-2.0
   vulnerable: true
 - repo: xrepo
   srcname: mosquitto
